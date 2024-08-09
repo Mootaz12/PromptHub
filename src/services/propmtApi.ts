@@ -3,7 +3,10 @@ import type { Prompt } from "@/types";
 
 export const promptApi = createApi({
   reducerPath: "promptApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3000/api" }),
+  baseQuery: fetchBaseQuery({
+    baseUrl:
+      process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:3000/api",
+  }),
   tagTypes: ["Prompt"],
   endpoints: (builder) => ({
     // Create a new prompt
