@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "prisma:migrate": "npx prisma migrate deploy",
-    "vercel-build": "npx prisma generate && next build"
+    "vercel-build": "prisma generate && next build"
   },
   "dependencies": {
     "@ant-design/icons": "^5.4.0",

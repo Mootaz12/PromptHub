@@ -55,7 +55,7 @@ const PromptCard = ({
       <div className="flex items-center justify-between gap-5">
         <div className="flex items-center gap-4">
           <Image
-            src={user?.imageUrl || "/default-avatar.png"}
+            src={user?.imageUrl}
             alt="User image"
             height={40}
             width={40}
