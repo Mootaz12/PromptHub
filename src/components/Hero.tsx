@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="lg:mt-22 mt-6 flex flex-col items-center text-center md:mt-20">
+    <section className="lg:mt-22 mt-6 flex flex-col items-center bg-red-600 text-center md:mt-20">
       <h1 className="bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-3xl font-bold text-transparent dark:from-indigo-300 dark:via-purple-300 dark:to-pink-300 md:text-5xl lg:text-6xl">
         Welcome to PromptHub
       </h1>
